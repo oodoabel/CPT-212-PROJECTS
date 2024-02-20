@@ -50,11 +50,16 @@ printf("%d\n", FAV_NUM);
 
 // GETTING INPUT FROM A USER
 
-double age;
+// double age;
 
-printf("Enter your age: ");
-scanf("%lf", &age);
-printf("you are %f yrs old", age);
+// printf("Enter your age: ");
+// scanf("%lf", &age);
+// printf("you are %f yrs old\n", age);
+
+char grade;
+printf("Enter your grade: ");
+scanf("%c", &grade);
+printf("Your grade is %c", grade);
 
 return 0;
 }
