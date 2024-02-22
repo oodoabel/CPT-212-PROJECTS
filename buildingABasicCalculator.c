@@ -3,15 +3,15 @@
 
 int main(){
 
-    int num1, num2, answer;
+    double num1, num2, answer;
 
     printf("Enter first number: \n");
-    scanf("%d", &num1);
+    scanf("%lf", &num1);
     printf("Enter second number: \n");
-    scanf("%d", &num2);
+    scanf("%lf", &num2);
     answer = num1 * num2;
 
-    printf("The answer is %d", answer);
+    printf("The answer is %f", answer);
     return 0;
 
 
