@@ -14,8 +14,8 @@ int main(){
     char department[20];
     printf("Enter your department: ");
     fgets(department, 20, stdin);
-    printf("Your department is %s", department);
-
+    printf("Your department is %s", department); 
+    
     return 0;
 
 
