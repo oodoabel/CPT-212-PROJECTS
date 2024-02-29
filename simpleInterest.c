@@ -1,16 +1,19 @@
 #include<stdio.h>
 int main()
 {
-float p, r, t;
+float principal, rate, time;
 
-printf("enter value for p\n");
-scanf("%f", &p);
-printf("enter value for r\n");
-scanf("%f", &r);
-printf("enter value for t\n");
-scanf("%f", &t);
-float s= (p*r*t)/100;
-printf("simple interest is %f", s);
+printf("enter value for principal\n");
+scanf("%f", &principal);
+
+printf("enter value for rate\n");
+scanf("%f", &rate);
+
+printf("enter value for time \n");
+scanf("%f", &time);
+
+float interest= (principal*rate*time)/100;
+printf("Simple interest is %f", interest);
 
 return 0;
 
